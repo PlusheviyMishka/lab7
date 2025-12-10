@@ -21,9 +21,9 @@ std::ofstream log_file("game_log.txt");
 
 class ConsoleObserver : public IFightObserver {
 public:
+
     ConsoleObserver() = default;
     
-    // Запрещаем копирование
     ConsoleObserver(const ConsoleObserver&) = delete;
     ConsoleObserver& operator=(const ConsoleObserver&) = delete;
 
@@ -52,7 +52,7 @@ class FileObserver : public IFightObserver {
 private:
     std::ofstream log_file;
     
-
+public:
     FileObserver() {
         log_file.open("battle_log.txt", std::ios::app);
     }
@@ -62,7 +62,8 @@ private:
             log_file.close();
         }
     }
-
+    
+    // Запрещаем копирование
     FileObserver(const FileObserver&) = delete;
     FileObserver& operator=(const FileObserver&) = delete;
 
