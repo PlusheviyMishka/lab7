@@ -257,7 +257,7 @@ int main() {
         }
     });
 
-    int now = 0, end = 30; // Уменьшил время симуляции для наглядности
+    int now = 0, end = 30; 
     while (now < end && m) {
         const int grid{20}, step_x{MAX_X / grid}, step_y{MAX_Y / grid};
         std::array<char, grid * grid> fields{0};
@@ -366,7 +366,7 @@ int main() {
             }
         }
         
-        std::this_thread::sleep_for(2s); // Увеличил задержку для лучшего наблюдения
+        std::this_thread::sleep_for(2s); 
         now += 1;
     }
 
