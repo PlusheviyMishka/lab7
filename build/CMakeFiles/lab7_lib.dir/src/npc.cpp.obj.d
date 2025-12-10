@@ -1,5 +1,5 @@
-CMakeFiles/lab7_lib.dir/src/npc.cpp.obj: D:\OOP_LABS\lab7\src\npc.cpp \
- D:/OOP_LABS/lab7/include/npc.h \
+CMakeFiles/lab7_lib.dir/src/npc.cpp.obj: \
+ D:\oop-labs_temp\lab7\src\npc.cpp D:/oop-labs_temp/lab7/include/npc.h \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/iostream \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -232,7 +232,7 @@ CMakeFiles/lab7_lib.dir/src/npc.cpp.obj: D:\OOP_LABS\lab7\src\npc.cpp \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/bits/parse_numbers.h \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/mutex \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/bits/unique_lock.h \
- D:/OOP_LABS/lab7/include/knight.h D:/OOP_LABS/lab7/include/bear.h \
- D:/OOP_LABS/lab7/include/orc.h \
+ D:/oop-labs_temp/lab7/include/knight.h \
+ D:/oop-labs_temp/lab7/include/bear.h D:/oop-labs_temp/lab7/include/orc.h \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/sstream \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/bits/sstream.tcc

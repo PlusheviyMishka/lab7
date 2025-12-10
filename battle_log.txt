@@ -1,0 +1,6 @@
+
+=== MURDER ===
+Attacker: Orc Mog: { x:438, y:498, name:"Mog"} 
+Defender: Bear Fozzie: { x:442, y:495, name:"Fozzie"} 
+=============
+

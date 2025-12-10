@@ -1,1 +1,1 @@
--isystem "D:/OOP_LABS/lab7/build/_deps/googletest-src/googlemock/include" -isystem "D:/OOP_LABS/lab7/build/_deps/googletest-src/googlemock" -isystem "D:/OOP_LABS/lab7/build/_deps/googletest-src/googletest/include" -isystem "D:/OOP_LABS/lab7/build/_deps/googletest-src/googletest"
+-isystem "D:/oop-labs_temp/lab7/build/_deps/googletest-src/googlemock/include" -isystem "D:/oop-labs_temp/lab7/build/_deps/googletest-src/googlemock" -isystem "D:/oop-labs_temp/lab7/build/_deps/googletest-src/googletest/include" -isystem "D:/oop-labs_temp/lab7/build/_deps/googletest-src/googletest"

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/OOP_LABS/lab7/main.cpp" "CMakeFiles/lab7_exe.dir/main.cpp.obj" "gcc" "CMakeFiles/lab7_exe.dir/main.cpp.obj.d"
+  "D:/oop-labs_temp/lab7/main.cpp" "CMakeFiles/lab7_exe.dir/main.cpp.obj" "gcc" "CMakeFiles/lab7_exe.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

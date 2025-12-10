@@ -1,4 +1,4 @@
-CMakeFiles/lab7_exe.dir/main.cpp.obj: D:\OOP_LABS\lab7\main.cpp \
+CMakeFiles/lab7_exe.dir/main.cpp.obj: D:\oop-labs_temp\lab7\main.cpp \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/sstream \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -226,7 +226,7 @@ CMakeFiles/lab7_exe.dir/main.cpp.obj: D:\OOP_LABS\lab7\main.cpp \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++io.h \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/bits/fstream.tcc \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/shared_mutex \
- D:\OOP_LABS\lab7\include/npc.h \
+ D:\oop-labs_temp\lab7\include/npc.h \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/iostream \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/memory \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
@@ -271,5 +271,6 @@ CMakeFiles/lab7_exe.dir/main.cpp.obj: D:\OOP_LABS\lab7\main.cpp \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/bits/stl_set.h \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/bits/stl_multiset.h \
  D:/programms/MSYS2/mingw64/include/c++/15.2.0/bits/erase_if.h \
- D:\OOP_LABS\lab7\include/orc.h D:\OOP_LABS\lab7\include/knight.h \
- D:\OOP_LABS\lab7\include/bear.h
+ D:\oop-labs_temp\lab7\include/orc.h \
+ D:\oop-labs_temp\lab7\include/knight.h \
+ D:\oop-labs_temp\lab7\include/bear.h

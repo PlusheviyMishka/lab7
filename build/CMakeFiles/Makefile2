@@ -53,10 +53,10 @@ RM = D:\programms\Cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\OOP_LABS\lab7
+CMAKE_SOURCE_DIR = D:\oop-labs_temp\lab7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\OOP_LABS\lab7\build
+CMAKE_BINARY_DIR = D:\oop-labs_temp\lab7\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -159,14 +159,14 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 CMakeFiles/lab7_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_lib.dir\build.make CMakeFiles/lab7_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_lib.dir\build.make CMakeFiles/lab7_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=11,12,13,14,15 "Built target lab7_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=11,12,13,14,15 "Built target lab7_lib"
 .PHONY : CMakeFiles/lab7_lib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lab7_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lab7_lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 0
 .PHONY : CMakeFiles/lab7_lib.dir/rule
 
 # Convenience name for target.
@@ -176,7 +176,7 @@ lab7_lib: CMakeFiles/lab7_lib.dir/rule
 # codegen rule for target.
 CMakeFiles/lab7_lib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_lib.dir\build.make CMakeFiles/lab7_lib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=11,12,13,14,15 "Finished codegen for target lab7_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=11,12,13,14,15 "Finished codegen for target lab7_lib"
 .PHONY : CMakeFiles/lab7_lib.dir/codegen
 
 # clean rule for target.
@@ -191,14 +191,14 @@ CMakeFiles/lab7_lib.dir/clean:
 CMakeFiles/lab7_exe.dir/all: CMakeFiles/lab7_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_exe.dir\build.make CMakeFiles/lab7_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_exe.dir\build.make CMakeFiles/lab7_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=9,10 "Built target lab7_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=9,10 "Built target lab7_exe"
 .PHONY : CMakeFiles/lab7_exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lab7_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lab7_exe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 0
 .PHONY : CMakeFiles/lab7_exe.dir/rule
 
 # Convenience name for target.
@@ -208,7 +208,7 @@ lab7_exe: CMakeFiles/lab7_exe.dir/rule
 # codegen rule for target.
 CMakeFiles/lab7_exe.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab7_exe.dir\build.make CMakeFiles/lab7_exe.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=9,10 "Finished codegen for target lab7_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=9,10 "Finished codegen for target lab7_exe"
 .PHONY : CMakeFiles/lab7_exe.dir/codegen
 
 # clean rule for target.
@@ -225,14 +225,14 @@ CMakeFiles/tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir
 CMakeFiles/tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=16,17 "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=16,17 "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -242,7 +242,7 @@ tests: CMakeFiles/tests.dir/rule
 # codegen rule for target.
 CMakeFiles/tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=16,17 "Finished codegen for target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=16,17 "Finished codegen for target tests"
 .PHONY : CMakeFiles/tests.dir/codegen
 
 # clean rule for target.
@@ -257,14 +257,14 @@ CMakeFiles/tests.dir/clean:
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=1,2 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=1,2 "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 0
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -274,7 +274,7 @@ gmock: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=1,2 "Finished codegen for target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=1,2 "Finished codegen for target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen
 
 # clean rule for target.
@@ -290,14 +290,14 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletes
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=3,4 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=3,4 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 0
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -307,7 +307,7 @@ gmock_main: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=3,4 "Finished codegen for target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=3,4 "Finished codegen for target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen
 
 # clean rule for target.
@@ -322,14 +322,14 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=5,6 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=5,6 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 0
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -339,7 +339,7 @@ gtest: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=5,6 "Finished codegen for target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=5,6 "Finished codegen for target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen
 
 # clean rule for target.
@@ -354,14 +354,14 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=7,8 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=7,8 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OOP_LABS\lab7\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\oop-labs_temp\lab7\build\CMakeFiles 0
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -371,7 +371,7 @@ gtest_main: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=7,8 "Finished codegen for target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=7,8 "Finished codegen for target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen
 
 # clean rule for target.

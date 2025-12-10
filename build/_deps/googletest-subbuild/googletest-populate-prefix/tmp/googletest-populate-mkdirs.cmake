@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "D:/OOP_LABS/lab7/build/_deps/googletest-src")
-  file(MAKE_DIRECTORY "D:/OOP_LABS/lab7/build/_deps/googletest-src")
+if(NOT EXISTS "D:/oop-labs_temp/lab7/build/_deps/googletest-src")
+  file(MAKE_DIRECTORY "D:/oop-labs_temp/lab7/build/_deps/googletest-src")
 endif()
 file(MAKE_DIRECTORY
-  "D:/OOP_LABS/lab7/build/_deps/googletest-build"
-  "D:/OOP_LABS/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix"
-  "D:/OOP_LABS/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
-  "D:/OOP_LABS/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
-  "D:/OOP_LABS/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix/src"
-  "D:/OOP_LABS/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "D:/oop-labs_temp/lab7/build/_deps/googletest-build"
+  "D:/oop-labs_temp/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix"
+  "D:/oop-labs_temp/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
+  "D:/oop-labs_temp/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "D:/oop-labs_temp/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix/src"
+  "D:/oop-labs_temp/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/OOP_LABS/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "D:/oop-labs_temp/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/OOP_LABS/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "D:/oop-labs_temp/lab7/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/OOP_LABS/lab7/build/_deps/googletest-subbuild/cmake_install.cmake"
+		"D:/oop-labs_temp/lab7/build/_deps/googletest-subbuild/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

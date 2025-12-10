@@ -20,53 +20,79 @@ std::mutex file_mutex;
 std::ofstream log_file("game_log.txt");
 
 class ConsoleObserver : public IFightObserver {
-private:
-    ConsoleObserver(){};
-
 public:
+    // Делаем конструктор публичным
+    ConsoleObserver() = default;
+    
+    // Запрещаем копирование
+    ConsoleObserver(const ConsoleObserver&) = delete;
+    ConsoleObserver& operator=(const ConsoleObserver&) = delete;
+
     static std::shared_ptr<IFightObserver> get() {
-        static ConsoleObserver instance;
-        return std::shared_ptr<IFightObserver>(&instance, [](IFightObserver *) {});
+        // Простой Singleton через static
+        static std::shared_ptr<ConsoleObserver> instance = 
+            std::make_shared<ConsoleObserver>();
+        return instance;
     }
 
-    void on_fight(const std::shared_ptr<NPC> attacker, const std::shared_ptr<NPC> defender, bool win) override {
+    void on_fight(const std::shared_ptr<NPC> attacker, 
+                  const std::shared_ptr<NPC> defender, 
+                  bool win) override {
         if (win) {
-            std::lock_guard<std::mutex> lck(console_mutex);
+            std::lock_guard<std::mutex> lock(console_mutex);
             std::cout << std::endl << "=== MURDER ===" << std::endl;
             std::cout << "Attacker: ";
             attacker->print();
             std::cout << "Defender: ";
             defender->print();
             std::cout << "=============" << std::endl << std::endl;
-            std::cout.flush();
         }
     }
 };
 
 class FileObserver : public IFightObserver {
 private:
-    FileObserver(){};
-
+    std::ofstream log_file;
+    
 public:
+    // Конструктор открывает файл
+    FileObserver() {
+        log_file.open("battle_log.txt", std::ios::app);
+    }
+    
+    // Деструктор закрывает файл
+    ~FileObserver() {
+        if (log_file.is_open()) {
+            log_file.close();
+        }
+    }
+    
+    // Запрещаем копирование
+    FileObserver(const FileObserver&) = delete;
+    FileObserver& operator=(const FileObserver&) = delete;
+
     static std::shared_ptr<IFightObserver> get() {
-        static FileObserver instance;
-        return std::shared_ptr<IFightObserver>(&instance, [](IFightObserver *) {});
+        // Простой Singleton через static
+        static std::shared_ptr<FileObserver> instance = 
+            std::make_shared<FileObserver>();
+        return instance;
     }
 
-    void on_fight(const std::shared_ptr<NPC> attacker, const std::shared_ptr<NPC> defender, bool win) override {
+    void on_fight(const std::shared_ptr<NPC> attacker, 
+                  const std::shared_ptr<NPC> defender, 
+                  bool win) override {
         if (win) {
-            std::lock_guard<std::mutex> lck(file_mutex);
+            std::lock_guard<std::mutex> lock(file_mutex);
             log_file << std::endl << "=== MURDER ===" << std::endl;
             log_file << "Attacker: ";
             attacker->print(log_file);
             log_file << "Defender: ";
             defender->print(log_file);
             log_file << "=============" << std::endl << std::endl;
-            log_file.flush();
         }
     }
 };
-
+//фабрика из файла
 std::shared_ptr<NPC> factory(std::istream &is) {
     std::shared_ptr<NPC> result;
     int type{0};
@@ -94,6 +120,7 @@ std::shared_ptr<NPC> factory(std::istream &is) {
     return result;
 }
 
+//фабрика из параметров
 std::shared_ptr<NPC> factory(NpcType type, int x, int y) {
     std::shared_ptr<NPC> result;
     switch (type)

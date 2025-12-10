@@ -1,8 +1,8 @@
-# Install script for directory: D:/OOP_LABS/lab7/build/_deps/googletest-src
+# Install script for directory: D:/oop-labs_temp/lab7/build/_deps/googletest-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/gtest")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/lab7")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/OOP_LABS/lab7/build/_deps/googletest-build/googlemock/cmake_install.cmake")
+  include("D:/oop-labs_temp/lab7/build/_deps/googletest-build/googlemock/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/OOP_LABS/lab7/build/_deps/googletest-build/install_local_manifest.txt"
+  file(WRITE "D:/oop-labs_temp/lab7/build/_deps/googletest-build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

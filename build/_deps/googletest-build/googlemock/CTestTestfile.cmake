@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: D:/OOP_LABS/lab7/build/_deps/googletest-src/googlemock
-# Build directory: D:/OOP_LABS/lab7/build/_deps/googletest-build/googlemock
+# Source directory: D:/oop-labs_temp/lab7/build/_deps/googletest-src/googlemock
+# Build directory: D:/oop-labs_temp/lab7/build/_deps/googletest-build/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

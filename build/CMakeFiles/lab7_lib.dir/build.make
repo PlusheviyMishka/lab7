@@ -52,10 +52,10 @@ RM = D:\programms\Cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\OOP_LABS\lab7
+CMAKE_SOURCE_DIR = D:\oop-labs_temp\lab7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\OOP_LABS\lab7\build
+CMAKE_BINARY_DIR = D:\oop-labs_temp\lab7\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab7_lib.dir/depend.make
@@ -72,60 +72,60 @@ CMakeFiles/lab7_lib.dir/codegen:
 .PHONY : CMakeFiles/lab7_lib.dir/codegen
 
 CMakeFiles/lab7_lib.dir/src/npc.cpp.obj: CMakeFiles/lab7_lib.dir/flags.make
-CMakeFiles/lab7_lib.dir/src/npc.cpp.obj: D:/OOP_LABS/lab7/src/npc.cpp
+CMakeFiles/lab7_lib.dir/src/npc.cpp.obj: D:/oop-labs_temp/lab7/src/npc.cpp
 CMakeFiles/lab7_lib.dir/src/npc.cpp.obj: CMakeFiles/lab7_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab7_lib.dir/src/npc.cpp.obj"
-	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab7_lib.dir/src/npc.cpp.obj -MF CMakeFiles\lab7_lib.dir\src\npc.cpp.obj.d -o CMakeFiles\lab7_lib.dir\src\npc.cpp.obj -c D:\OOP_LABS\lab7\src\npc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab7_lib.dir/src/npc.cpp.obj"
+	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab7_lib.dir/src/npc.cpp.obj -MF CMakeFiles\lab7_lib.dir\src\npc.cpp.obj.d -o CMakeFiles\lab7_lib.dir\src\npc.cpp.obj -c D:\oop-labs_temp\lab7\src\npc.cpp
 
 CMakeFiles/lab7_lib.dir/src/npc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab7_lib.dir/src/npc.cpp.i"
-	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OOP_LABS\lab7\src\npc.cpp > CMakeFiles\lab7_lib.dir\src\npc.cpp.i
+	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\oop-labs_temp\lab7\src\npc.cpp > CMakeFiles\lab7_lib.dir\src\npc.cpp.i
 
 CMakeFiles/lab7_lib.dir/src/npc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab7_lib.dir/src/npc.cpp.s"
-	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\OOP_LABS\lab7\src\npc.cpp -o CMakeFiles\lab7_lib.dir\src\npc.cpp.s
+	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\oop-labs_temp\lab7\src\npc.cpp -o CMakeFiles\lab7_lib.dir\src\npc.cpp.s
 
 CMakeFiles/lab7_lib.dir/src/bear.cpp.obj: CMakeFiles/lab7_lib.dir/flags.make
-CMakeFiles/lab7_lib.dir/src/bear.cpp.obj: D:/OOP_LABS/lab7/src/bear.cpp
+CMakeFiles/lab7_lib.dir/src/bear.cpp.obj: D:/oop-labs_temp/lab7/src/bear.cpp
 CMakeFiles/lab7_lib.dir/src/bear.cpp.obj: CMakeFiles/lab7_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab7_lib.dir/src/bear.cpp.obj"
-	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab7_lib.dir/src/bear.cpp.obj -MF CMakeFiles\lab7_lib.dir\src\bear.cpp.obj.d -o CMakeFiles\lab7_lib.dir\src\bear.cpp.obj -c D:\OOP_LABS\lab7\src\bear.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab7_lib.dir/src/bear.cpp.obj"
+	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab7_lib.dir/src/bear.cpp.obj -MF CMakeFiles\lab7_lib.dir\src\bear.cpp.obj.d -o CMakeFiles\lab7_lib.dir\src\bear.cpp.obj -c D:\oop-labs_temp\lab7\src\bear.cpp
 
 CMakeFiles/lab7_lib.dir/src/bear.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab7_lib.dir/src/bear.cpp.i"
-	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OOP_LABS\lab7\src\bear.cpp > CMakeFiles\lab7_lib.dir\src\bear.cpp.i
+	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\oop-labs_temp\lab7\src\bear.cpp > CMakeFiles\lab7_lib.dir\src\bear.cpp.i
 
 CMakeFiles/lab7_lib.dir/src/bear.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab7_lib.dir/src/bear.cpp.s"
-	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\OOP_LABS\lab7\src\bear.cpp -o CMakeFiles\lab7_lib.dir\src\bear.cpp.s
+	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\oop-labs_temp\lab7\src\bear.cpp -o CMakeFiles\lab7_lib.dir\src\bear.cpp.s
 
 CMakeFiles/lab7_lib.dir/src/orc.cpp.obj: CMakeFiles/lab7_lib.dir/flags.make
-CMakeFiles/lab7_lib.dir/src/orc.cpp.obj: D:/OOP_LABS/lab7/src/orc.cpp
+CMakeFiles/lab7_lib.dir/src/orc.cpp.obj: D:/oop-labs_temp/lab7/src/orc.cpp
 CMakeFiles/lab7_lib.dir/src/orc.cpp.obj: CMakeFiles/lab7_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab7_lib.dir/src/orc.cpp.obj"
-	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab7_lib.dir/src/orc.cpp.obj -MF CMakeFiles\lab7_lib.dir\src\orc.cpp.obj.d -o CMakeFiles\lab7_lib.dir\src\orc.cpp.obj -c D:\OOP_LABS\lab7\src\orc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab7_lib.dir/src/orc.cpp.obj"
+	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab7_lib.dir/src/orc.cpp.obj -MF CMakeFiles\lab7_lib.dir\src\orc.cpp.obj.d -o CMakeFiles\lab7_lib.dir\src\orc.cpp.obj -c D:\oop-labs_temp\lab7\src\orc.cpp
 
 CMakeFiles/lab7_lib.dir/src/orc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab7_lib.dir/src/orc.cpp.i"
-	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OOP_LABS\lab7\src\orc.cpp > CMakeFiles\lab7_lib.dir\src\orc.cpp.i
+	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\oop-labs_temp\lab7\src\orc.cpp > CMakeFiles\lab7_lib.dir\src\orc.cpp.i
 
 CMakeFiles/lab7_lib.dir/src/orc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab7_lib.dir/src/orc.cpp.s"
-	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\OOP_LABS\lab7\src\orc.cpp -o CMakeFiles\lab7_lib.dir\src\orc.cpp.s
+	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\oop-labs_temp\lab7\src\orc.cpp -o CMakeFiles\lab7_lib.dir\src\orc.cpp.s
 
 CMakeFiles/lab7_lib.dir/src/knight.cpp.obj: CMakeFiles/lab7_lib.dir/flags.make
-CMakeFiles/lab7_lib.dir/src/knight.cpp.obj: D:/OOP_LABS/lab7/src/knight.cpp
+CMakeFiles/lab7_lib.dir/src/knight.cpp.obj: D:/oop-labs_temp/lab7/src/knight.cpp
 CMakeFiles/lab7_lib.dir/src/knight.cpp.obj: CMakeFiles/lab7_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab7_lib.dir/src/knight.cpp.obj"
-	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab7_lib.dir/src/knight.cpp.obj -MF CMakeFiles\lab7_lib.dir\src\knight.cpp.obj.d -o CMakeFiles\lab7_lib.dir\src\knight.cpp.obj -c D:\OOP_LABS\lab7\src\knight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab7_lib.dir/src/knight.cpp.obj"
+	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab7_lib.dir/src/knight.cpp.obj -MF CMakeFiles\lab7_lib.dir\src\knight.cpp.obj.d -o CMakeFiles\lab7_lib.dir\src\knight.cpp.obj -c D:\oop-labs_temp\lab7\src\knight.cpp
 
 CMakeFiles/lab7_lib.dir/src/knight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab7_lib.dir/src/knight.cpp.i"
-	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OOP_LABS\lab7\src\knight.cpp > CMakeFiles\lab7_lib.dir\src\knight.cpp.i
+	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\oop-labs_temp\lab7\src\knight.cpp > CMakeFiles\lab7_lib.dir\src\knight.cpp.i
 
 CMakeFiles/lab7_lib.dir/src/knight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab7_lib.dir/src/knight.cpp.s"
-	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\OOP_LABS\lab7\src\knight.cpp -o CMakeFiles\lab7_lib.dir\src\knight.cpp.s
+	D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\oop-labs_temp\lab7\src\knight.cpp -o CMakeFiles\lab7_lib.dir\src\knight.cpp.s
 
 # Object files for target lab7_lib
 lab7_lib_OBJECTS = \
@@ -143,7 +143,7 @@ liblab7_lib.a: CMakeFiles/lab7_lib.dir/src/orc.cpp.obj
 liblab7_lib.a: CMakeFiles/lab7_lib.dir/src/knight.cpp.obj
 liblab7_lib.a: CMakeFiles/lab7_lib.dir/build.make
 liblab7_lib.a: CMakeFiles/lab7_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library liblab7_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library liblab7_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\lab7_lib.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab7_lib.dir\link.txt --verbose=$(VERBOSE)
 
@@ -156,6 +156,6 @@ CMakeFiles/lab7_lib.dir/clean:
 .PHONY : CMakeFiles/lab7_lib.dir/clean
 
 CMakeFiles/lab7_lib.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\OOP_LABS\lab7 D:\OOP_LABS\lab7 D:\OOP_LABS\lab7\build D:\OOP_LABS\lab7\build D:\OOP_LABS\lab7\build\CMakeFiles\lab7_lib.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\oop-labs_temp\lab7 D:\oop-labs_temp\lab7 D:\oop-labs_temp\lab7\build D:\oop-labs_temp\lab7\build D:\oop-labs_temp\lab7\build\CMakeFiles\lab7_lib.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/lab7_lib.dir/depend
 

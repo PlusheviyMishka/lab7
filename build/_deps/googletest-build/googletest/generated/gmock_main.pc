@@ -1,5 +1,5 @@
-libdir=C:/Program Files (x86)/gtest/lib
-includedir=C:/Program Files (x86)/gtest/include
+libdir=C:/Program Files (x86)/lab7/lib
+includedir=C:/Program Files (x86)/lab7/include
 
 Name: gmock_main
 Description: GoogleMock (with main() function)

@@ -52,10 +52,10 @@ RM = D:\programms\Cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\OOP_LABS\lab7
+CMAKE_SOURCE_DIR = D:\oop-labs_temp\lab7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\OOP_LABS\lab7\build
+CMAKE_BINARY_DIR = D:\oop-labs_temp\lab7\build
 
 # Include any dependencies generated for this target.
 include _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend.make
@@ -75,16 +75,16 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.ob
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/includes_CXX.rsp
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: _deps/googletest-src/googlemock/src/gmock_main.cc
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
-	cd /d D:\OOP_LABS\lab7\build\_deps\googletest-build\googlemock && D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj -MF CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj.d -o CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj -c D:\OOP_LABS\lab7\build\_deps\googletest-src\googlemock\src\gmock_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+	cd /d D:\oop-labs_temp\lab7\build\_deps\googletest-build\googlemock && D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj -MF CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj.d -o CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj -c D:\oop-labs_temp\lab7\build\_deps\googletest-src\googlemock\src\gmock_main.cc
 
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/src/gmock_main.cc.i"
-	cd /d D:\OOP_LABS\lab7\build\_deps\googletest-build\googlemock && D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OOP_LABS\lab7\build\_deps\googletest-src\googlemock\src\gmock_main.cc > CMakeFiles\gmock_main.dir\src\gmock_main.cc.i
+	cd /d D:\oop-labs_temp\lab7\build\_deps\googletest-build\googlemock && D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\oop-labs_temp\lab7\build\_deps\googletest-src\googlemock\src\gmock_main.cc > CMakeFiles\gmock_main.dir\src\gmock_main.cc.i
 
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/src/gmock_main.cc.s"
-	cd /d D:\OOP_LABS\lab7\build\_deps\googletest-build\googlemock && D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\OOP_LABS\lab7\build\_deps\googletest-src\googlemock\src\gmock_main.cc -o CMakeFiles\gmock_main.dir\src\gmock_main.cc.s
+	cd /d D:\oop-labs_temp\lab7\build\_deps\googletest-build\googlemock && D:\programms\MSYS2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\oop-labs_temp\lab7\build\_deps\googletest-src\googlemock\src\gmock_main.cc -o CMakeFiles\gmock_main.dir\src\gmock_main.cc.s
 
 # Object files for target gmock_main
 gmock_main_OBJECTS = \
@@ -96,19 +96,19 @@ gmock_main_EXTERNAL_OBJECTS =
 lib/libgmock_main.a: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj
 lib/libgmock_main.a: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make
 lib/libgmock_main.a: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\OOP_LABS\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ..\..\..\lib\libgmock_main.a"
-	cd /d D:\OOP_LABS\lab7\build\_deps\googletest-build\googlemock && $(CMAKE_COMMAND) -P CMakeFiles\gmock_main.dir\cmake_clean_target.cmake
-	cd /d D:\OOP_LABS\lab7\build\_deps\googletest-build\googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gmock_main.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\oop-labs_temp\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ..\..\..\lib\libgmock_main.a"
+	cd /d D:\oop-labs_temp\lab7\build\_deps\googletest-build\googlemock && $(CMAKE_COMMAND) -P CMakeFiles\gmock_main.dir\cmake_clean_target.cmake
+	cd /d D:\oop-labs_temp\lab7\build\_deps\googletest-build\googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gmock_main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build: lib/libgmock_main.a
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
 
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
-	cd /d D:\OOP_LABS\lab7\build\_deps\googletest-build\googlemock && $(CMAKE_COMMAND) -P CMakeFiles\gmock_main.dir\cmake_clean.cmake
+	cd /d D:\oop-labs_temp\lab7\build\_deps\googletest-build\googlemock && $(CMAKE_COMMAND) -P CMakeFiles\gmock_main.dir\cmake_clean.cmake
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean
 
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\OOP_LABS\lab7 D:\OOP_LABS\lab7\build\_deps\googletest-src\googlemock D:\OOP_LABS\lab7\build D:\OOP_LABS\lab7\build\_deps\googletest-build\googlemock D:\OOP_LABS\lab7\build\_deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\oop-labs_temp\lab7 D:\oop-labs_temp\lab7\build\_deps\googletest-src\googlemock D:\oop-labs_temp\lab7\build D:\oop-labs_temp\lab7\build\_deps\googletest-build\googlemock D:\oop-labs_temp\lab7\build\_deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 
