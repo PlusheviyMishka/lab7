@@ -1,0 +1,3 @@
+D:\programms\Cmake\bin\cmake.exe -E rm -f CMakeFiles\lab7_exe.dir/objects.a
+D:\programms\MSYS2\mingw64\bin\ar.exe qc CMakeFiles\lab7_exe.dir/objects.a @CMakeFiles\lab7_exe.dir\objects1.rsp
+D:\programms\MSYS2\mingw64\bin\g++.exe  -Werror=maybe-uninitialized -g -Wl,--whole-archive CMakeFiles\lab7_exe.dir/objects.a -Wl,--no-whole-archive -o lab7_exe.exe -Wl,--out-implib,liblab7_exe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lab7_exe.dir\linkLibs.rsp

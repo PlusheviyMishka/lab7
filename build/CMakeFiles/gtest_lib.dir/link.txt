@@ -1,0 +1,2 @@
+D:\programms\MSYS2\mingw64\bin\ar.exe qc libgtest_lib.a CMakeFiles/gtest_lib.dir/src/npc.cpp.obj CMakeFiles/gtest_lib.dir/src/bear.cpp.obj CMakeFiles/gtest_lib.dir/src/orc.cpp.obj CMakeFiles/gtest_lib.dir/src/knight.cpp.obj
+D:\programms\MSYS2\mingw64\bin\ranlib.exe libgtest_lib.a

@@ -1,0 +1,2 @@
+D:\programms\MSYS2\mingw64\bin\ar.exe qc liblab7_lib.a CMakeFiles/lab7_lib.dir/src/npc.cpp.obj CMakeFiles/lab7_lib.dir/src/bear.cpp.obj CMakeFiles/lab7_lib.dir/src/orc.cpp.obj CMakeFiles/lab7_lib.dir/src/knight.cpp.obj
+D:\programms\MSYS2\mingw64\bin\ranlib.exe liblab7_lib.a

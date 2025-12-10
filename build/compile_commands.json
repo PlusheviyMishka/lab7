@@ -1,0 +1,62 @@
+[
+{
+  "directory": "D:/OOP_LABS/lab7/build",
+  "command": "D:\\programms\\MSYS2\\mingw64\\bin\\g++.exe    -Werror=maybe-uninitialized -g -std=gnu++20 -o CMakeFiles\\lab7_lib.dir\\src\\npc.cpp.obj -c D:\\OOP_LABS\\lab7\\src\\npc.cpp",
+  "file": "D:/OOP_LABS/lab7/src/npc.cpp",
+  "output": "CMakeFiles/lab7_lib.dir/src/npc.cpp.obj"
+},
+{
+  "directory": "D:/OOP_LABS/lab7/build",
+  "command": "D:\\programms\\MSYS2\\mingw64\\bin\\g++.exe    -Werror=maybe-uninitialized -g -std=gnu++20 -o CMakeFiles\\lab7_lib.dir\\src\\bear.cpp.obj -c D:\\OOP_LABS\\lab7\\src\\bear.cpp",
+  "file": "D:/OOP_LABS/lab7/src/bear.cpp",
+  "output": "CMakeFiles/lab7_lib.dir/src/bear.cpp.obj"
+},
+{
+  "directory": "D:/OOP_LABS/lab7/build",
+  "command": "D:\\programms\\MSYS2\\mingw64\\bin\\g++.exe    -Werror=maybe-uninitialized -g -std=gnu++20 -o CMakeFiles\\lab7_lib.dir\\src\\orc.cpp.obj -c D:\\OOP_LABS\\lab7\\src\\orc.cpp",
+  "file": "D:/OOP_LABS/lab7/src/orc.cpp",
+  "output": "CMakeFiles/lab7_lib.dir/src/orc.cpp.obj"
+},
+{
+  "directory": "D:/OOP_LABS/lab7/build",
+  "command": "D:\\programms\\MSYS2\\mingw64\\bin\\g++.exe    -Werror=maybe-uninitialized -g -std=gnu++20 -o CMakeFiles\\lab7_lib.dir\\src\\knight.cpp.obj -c D:\\OOP_LABS\\lab7\\src\\knight.cpp",
+  "file": "D:/OOP_LABS/lab7/src/knight.cpp",
+  "output": "CMakeFiles/lab7_lib.dir/src/knight.cpp.obj"
+},
+{
+  "directory": "D:/OOP_LABS/lab7/build",
+  "command": "D:\\programms\\MSYS2\\mingw64\\bin\\g++.exe    -Werror=maybe-uninitialized -g -std=gnu++20 -o CMakeFiles\\lab7_exe.dir\\main.cpp.obj -c D:\\OOP_LABS\\lab7\\main.cpp",
+  "file": "D:/OOP_LABS/lab7/main.cpp",
+  "output": "CMakeFiles/lab7_exe.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/OOP_LABS/lab7/build",
+  "command": "D:\\programms\\MSYS2\\mingw64\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp  -Werror=maybe-uninitialized -g -std=gnu++20 -o CMakeFiles\\tests.dir\\test\\test7.cpp.obj -c D:\\OOP_LABS\\lab7\\test\\test7.cpp",
+  "file": "D:/OOP_LABS/lab7/test/test7.cpp",
+  "output": "CMakeFiles/tests.dir/test/test7.cpp.obj"
+},
+{
+  "directory": "D:/OOP_LABS/lab7/build/_deps/googletest-build/googlemock",
+  "command": "D:\\programms\\MSYS2\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp  -Werror=maybe-uninitialized -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c D:\\OOP_LABS\\lab7\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "D:/OOP_LABS/lab7/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "D:/OOP_LABS/lab7/build/_deps/googletest-build/googlemock",
+  "command": "D:\\programms\\MSYS2\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp  -Werror=maybe-uninitialized -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c D:\\OOP_LABS\\lab7\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "D:/OOP_LABS/lab7/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "D:/OOP_LABS/lab7/build/_deps/googletest-build/googletest",
+  "command": "D:\\programms\\MSYS2\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp  -Werror=maybe-uninitialized -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c D:\\OOP_LABS\\lab7\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "D:/OOP_LABS/lab7/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "D:/OOP_LABS/lab7/build/_deps/googletest-build/googletest",
+  "command": "D:\\programms\\MSYS2\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp  -Werror=maybe-uninitialized -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c D:\\OOP_LABS\\lab7\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "D:/OOP_LABS/lab7/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]
