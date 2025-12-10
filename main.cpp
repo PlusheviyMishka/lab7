@@ -21,7 +21,6 @@ std::ofstream log_file("game_log.txt");
 
 class ConsoleObserver : public IFightObserver {
 public:
-    // Делаем конструктор публичным
     ConsoleObserver() = default;
     
     // Запрещаем копирование
@@ -29,7 +28,6 @@ public:
     ConsoleObserver& operator=(const ConsoleObserver&) = delete;
 
     static std::shared_ptr<IFightObserver> get() {
-        // Простой Singleton через static
         static std::shared_ptr<ConsoleObserver> instance = 
             std::make_shared<ConsoleObserver>();
         return instance;
@@ -54,25 +52,21 @@ class FileObserver : public IFightObserver {
 private:
     std::ofstream log_file;
     
-public:
-    // Конструктор открывает файл
+
     FileObserver() {
         log_file.open("battle_log.txt", std::ios::app);
     }
     
-    // Деструктор закрывает файл
     ~FileObserver() {
         if (log_file.is_open()) {
             log_file.close();
         }
     }
-    
-    // Запрещаем копирование
+
     FileObserver(const FileObserver&) = delete;
     FileObserver& operator=(const FileObserver&) = delete;
 
     static std::shared_ptr<IFightObserver> get() {
-        // Простой Singleton через static
         static std::shared_ptr<FileObserver> instance = 
             std::make_shared<FileObserver>();
         return instance;
